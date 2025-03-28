@@ -19,21 +19,13 @@
   }
 
   @font-face {
-    font-family: bombergrad;
-    src: url("/fonts/bomberescortgrad.ttf") format("ttf");
+    font-family: orbitron;
+    src: url("/fonts/Orbitron-Black.woff2") format("woff2");
   }
-
-  @font-face {
-    font-family: bomberhalf;
-    src: url("/fonts/bomberescorthalf.ttf") format("ttf");
-  }
-
-  @font-face {
-    font-family: Revamped;
-    src: url("/fonts/Revamped.otf") format("otf");
-  }
+ 
 
   @theme{
+    --font-orbitron: 'orbitron', sans-serif;
     --font-circular: 'circular', sans-serif;
     --font-general: 'general', sans-serif;
     --font-zentry: 'zentry', sans-serif;
@@ -116,7 +108,7 @@
   
 
   .hero-heading {
-    @apply font-bomber uppercase font-black text-5xl sm:right-10 sm:text-7xl md:text-7xl lg:text-[12rem];
+    @apply font-bomber text-5xl sm:right-10 sm:text-7xl md:text-7xl lg:text-8xl;
   }
 
   .about-subtext {
