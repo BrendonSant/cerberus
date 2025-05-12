@@ -49,7 +49,7 @@ const Hero = () => {
   const isLoading = !loadedVideo || !pageLoaded;
 
   return (
-    <div className="relative h-screen w-screen overflow-x-hidden">
+    <div className="relative h-screen w-screen overflow-x-hidden bg-amber-50">
       {isLoading && (
         <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-blue-50">
           <div className="three-body">
